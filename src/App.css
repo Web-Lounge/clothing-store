@@ -1,0 +1,27 @@
+.app-wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    "l c m"
+    "l c m"
+    "l f m";
+    grid-auto-rows: auto auto auto;
+    grid-template-columns: 15% 80% 5%;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+}
+
+.app-wrapper-r_menu {
+    grid-area: m;
+}
+
+.app-wrapper-footer {
+    grid-area: f;
+}
+
+app-wrapper-l_menu {
+    grid-area: l;
+}
+
